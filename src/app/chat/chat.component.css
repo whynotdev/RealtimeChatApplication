@@ -1,0 +1,98 @@
+/* Chat Container */
+.chat-box {
+  max-width: 600px;
+  margin: auto;
+  padding: 15px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Chat Messages */
+.messages {
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+/* Individual Message Bubbles */
+.message {
+  padding: 8px 12px;
+  margin: 6px 0;
+  border-radius: 18px;
+  display: inline-block;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+/* User Message */
+.user-message {
+  background-color: #4CAF50;
+  color: white;
+  align-self: flex-end;
+  text-align: right;
+}
+
+/* Incoming Message */
+.incoming-message {
+  background-color: #f1f1f1;
+  color: black;
+  align-self: flex-start;
+  text-align: left;
+}
+
+/* Input Area */
+.input-container {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Chat Input */
+input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 16px;
+  color: #333;
+  background: white;
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Send Button */
+button {
+  background: #ff6f61;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background: #e74c3c;
+}
+
+/* Typing Indicator */
+.typing {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 5px;
+  font-style: italic;
+}

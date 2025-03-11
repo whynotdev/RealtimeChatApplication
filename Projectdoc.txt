@@ -35,7 +35,7 @@ Run the following command to install these dependencies:
 
  npm install @ngrx/store @ngrx/effects socket.io-client @angular/service-worker
 
-
+npm install ngx-socket-io
 Install Socket.IO on the Server We also need to set up a server for WebSocket communication. We'll be using a basic Node.js server with Socket.IO to handle real-time communication.
 
 
